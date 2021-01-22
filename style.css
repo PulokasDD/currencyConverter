@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+header {
+  background-color: #8e3343;
+  min-height: 10vh;
+}
+
+main {
+  background-color: #ec9454;
+  min-height: 80vh;
+}
+
+footer {
+  background-color: #f1f08a;
+  min-height: 10vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+}
+
+img {
+  width: 36px;
+  height: 36px;
+  margin: 20px;
+}
+
+img:hover {
+  transition: 0.5s;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+li {
+  margin: 20px;
+}
+
+li a {
+  color: aliceblue;
+}
+
+li a:hover {
+  transition: 0.5s;
+  color: black;
+}
+
+form {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  outline-style: none;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_select {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+select {
+  margin: 0 5px 0 5px;
+  padding: 5px;
+}
+
+input {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.main_button {
+  box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:9px 23px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  margin: 15px;
+  outline-style: none;
+}
+
+.main_button:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.main_button:active {
+	position:relative;
+	top:1px;
+}

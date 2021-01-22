@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Converter</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Конвертер</a></li>
+        <li><a href="#">Курсы валют</a></li>
+      </ul>
+     <img src="./images/currency.png" alt="logo">
+    </nav>
+  </header>
+
+  <main>
+    <h1>Конвертер валюты</h1>
+    <form action="/api/convert" method="post">
+      <div class="container_select">
+        <select name="fromCurrency" id="fromCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="RUB">RUB</option>
+        </select>
+        <p>➡️</p>
+        <select name="toCurrency" id="toCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="RUB">RUB</option>
+        </select>
+      </div>
+      <input placeholder="введите сумму" name="amount" type="number">
+      <button class="main_button">COUNT</button>
+    </form>
+  </main>
+
+  <footer>
+    <h1>Footer</h1>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "currencyConverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulokasDD/currencyConverter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PulokasDD/currencyConverter/issues"
+  },
+  "homepage": "https://github.com/PulokasDD/currencyConverter#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
