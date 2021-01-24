@@ -12,14 +12,34 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 header {
   background-color: #8e3343;
   min-height: 10vh;
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 main {
   background-color: #ec9454;
   min-height: 80vh;
+}
+
+#convert_container {
+  position: absolute;
+  left:50%;
+  transform:translate(-50%);
+}
+
+#currency_container {
+  position: absolute;
+  left:50%;
+  transform:translate(-50%);
 }
 
 footer {
